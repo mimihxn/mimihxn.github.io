@@ -1,6 +1,7 @@
 import RecentSong from "./RecentSong";
 import React from 'react';
 import { createUseStyles } from 'react-jss';
+import RecentPic from "./RecentPic";
 
 const useStyles = createUseStyles({
     logo: {
@@ -11,12 +12,14 @@ const useStyles = createUseStyles({
         marginRight: 50
     },
     bio: {
-        display: "flex"
+        // display: "flex"
     },
     text: {
         
-    }
-
+    },
+    musicphoto: {
+        display: "flex"
+    },
 })
 
 const ICONS = [
@@ -102,9 +105,13 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
+            <div className={classes.musicphoto}>
                 <div>
                     <RecentSong />
+                </div>
+
+                <div>
+                    <RecentPic />
                 </div>
             </div>
         </div>
