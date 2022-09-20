@@ -82,7 +82,7 @@ function RecentSong() {
 
     return (
         <>
-            <h3 className={classes.subheading}>my most recently spotify activity</h3>
+            <h3 className={classes.subheading}>my most recently played song</h3>
             <p className={classes.smallTest}>(hopefully it's not embarrassing)</p>
             <a
                 target="_blank"

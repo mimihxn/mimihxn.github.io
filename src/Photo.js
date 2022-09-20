@@ -2,9 +2,9 @@ import React from 'react';
 
 const Photo = (props) => {
     return ( 
-        <section>
-            <img src={props.url} alt="ig photo" />
-        </section>
+        <div>
+            <img src={props.url} alt="ig photo" width="250" height="250"/>
+        </div>
      );
 }
  

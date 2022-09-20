@@ -20,7 +20,7 @@ const useStyles = createUseStyles({
     musicphoto: {
         display: "flex"
     },
-})
+});
 
 const ICONS = [
     {
@@ -69,7 +69,7 @@ const Home = () => {
             <h1 className={classes.logo}>mimi nguyen</h1>
 
             <h2>
-                product &amp; software engineer | QueensU CS | prev @AWS, The Perk Lab
+                product &amp; software engineer | QueensU CS | prev @ AWS, Tauria
             </h2>
 
             <div>

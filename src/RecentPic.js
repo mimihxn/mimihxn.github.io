@@ -9,7 +9,6 @@ class RecentPic extends Component {
             feedPhotos: []
         };
     }
-
     componentDidMount() {
         fetch('https://feeds.behold.so/drwJ31jNC53U20g7TWVp')
             .then(data => data.json())
@@ -24,7 +23,7 @@ class RecentPic extends Component {
     render() {
         return (
             <section className='recentPic'>
-                <p>Is this working?</p>
+                <h3>my most recent film photos</h3>
                 <PhotoContainer photos={this.state.feedPhotos} />
             </section>
         );
