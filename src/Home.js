@@ -24,6 +24,9 @@ const useStyles = createUseStyles({
     },
     icon: {
         marginRight: 20,
+    },
+    song: {
+        marginLeft: 20,
     }
 });
 
@@ -113,12 +116,12 @@ const Home = () => {
 
             <div className={classes.musicphoto}>
                 <div>
-                    <RecentSong />
-                </div>
-
-                <div>
                     <RecentPic />
                 </div>
+                
+                <div className={classes.song}>
+                    <RecentSong />
+                </div>                
             </div>
         </div>
      );
