@@ -12,14 +12,19 @@ const useStyles = createUseStyles({
         marginRight: 50
     },
     bio: {
-        // display: "flex"
+        // display: "flex",
+        marginTop: 30,
     },
     text: {
-        
+
     },
     musicphoto: {
+        marginTop: 30,
         display: "flex"
     },
+    icon: {
+        marginRight: 20,
+    }
 });
 
 const ICONS = [
@@ -81,6 +86,7 @@ const Home = () => {
                     >
                         <img
                             src={icon}
+                            className={classes.icon}
                             width = "30"
                             height = "30"
                             alt= {desc}

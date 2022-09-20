@@ -23,7 +23,7 @@ class RecentPic extends Component {
     render() {
         return (
             <section className='recentPic'>
-                <h3>my most recent film photos</h3>
+                <h3>recent film photos from @vision5th </h3>
                 <PhotoContainer photos={this.state.feedPhotos} />
             </section>
         );
